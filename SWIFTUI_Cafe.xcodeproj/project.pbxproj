@@ -18,6 +18,7 @@
 		34BA56422A026A790016E71F /* EventSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA56412A026A790016E71F /* EventSectionView.swift */; };
 		34BA56442A026AB20016E71F /* EventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA56432A026AB20016E71F /* EventData.swift */; };
 		34BA56462A026C910016E71F /* EventSectionItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA56452A026C910016E71F /* EventSectionItemView.swift */; };
+		34BA564B2A0273A60016E71F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA564A2A0273A60016E71F /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		34BA56412A026A790016E71F /* EventSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSectionView.swift; sourceTree = "<group>"; };
 		34BA56432A026AB20016E71F /* EventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventData.swift; sourceTree = "<group>"; };
 		34BA56452A026C910016E71F /* EventSectionItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSectionItemView.swift; sourceTree = "<group>"; };
+		34BA564A2A0273A60016E71F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,7 @@
 		34BA56392A02604D0016E71F /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				34BA56472A0272BC0016E71F /* EventSection */,
-				34BA56402A0269FB0016E71F /* MenuSuggestion */,
+				34BA56492A0273940016E71F /* Main */,
 				34BA56382A0260430016E71F /* Tab */,
 			);
 			path = Scenes;
@@ -126,6 +127,24 @@
 				34BA56432A026AB20016E71F /* EventData.swift */,
 			);
 			path = Entity;
+			sourceTree = "<group>";
+		};
+		34BA56492A0273940016E71F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				34BA56472A0272BC0016E71F /* EventSection */,
+				34BA56402A0269FB0016E71F /* MenuSuggestion */,
+				34BA564C2A0273B10016E71F /* Header */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		34BA564C2A0273B10016E71F /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				34BA564A2A0273A60016E71F /* HeaderView.swift */,
+			);
+			path = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +222,7 @@
 				34BA56292A010CDD0016E71F /* SWIFTUI_CafeApp.swift in Sources */,
 				34BA563D2A0260F40016E71F /* CoffeeMenuData.swift in Sources */,
 				34BA56422A026A790016E71F /* EventSectionView.swift in Sources */,
+				34BA564B2A0273A60016E71F /* HeaderView.swift in Sources */,
 				34BA563F2A0263EF0016E71F /* MenuSuggestionItemView.swift in Sources */,
 				34BA56442A026AB20016E71F /* EventData.swift in Sources */,
 				34BA563B2A02607F0016E71F /* MenuSuggestionSectionView.swift in Sources */,

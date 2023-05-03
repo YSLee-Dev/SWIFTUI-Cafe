@@ -17,6 +17,7 @@ struct MenuSuggestionSectionView: View {
                     MenuSuggestionItemView(coffeeData: list)
                 }
             }
+            .padding(15)
         }
     }
 }
