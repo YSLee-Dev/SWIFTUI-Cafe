@@ -29,6 +29,7 @@ struct HeaderView: View {
                 } label: {
                     Image(systemName: "list.dash.header.rectangle")
                     Text("What's New")
+                        .font(.callout)
                 }
                 
                 Button {
@@ -36,6 +37,7 @@ struct HeaderView: View {
                 } label: {
                     Image(systemName: "giftcard")
                     Text("Coupon")
+                        .font(.callout)
                 }
                 
                

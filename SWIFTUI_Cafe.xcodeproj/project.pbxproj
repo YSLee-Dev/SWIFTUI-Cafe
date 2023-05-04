@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3472A68E2A03AF720015EC0D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3472A68D2A03AF720015EC0D /* MainView.swift */; };
 		34BA56292A010CDD0016E71F /* SWIFTUI_CafeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA56282A010CDD0016E71F /* SWIFTUI_CafeApp.swift */; };
 		34BA562B2A010CDD0016E71F /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA562A2A010CDD0016E71F /* MainTabView.swift */; };
 		34BA562D2A010CE20016E71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BA562C2A010CE20016E71F /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3472A68D2A03AF720015EC0D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		34BA56252A010CDD0016E71F /* SWIFTUI_Cafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWIFTUI_Cafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34BA56282A010CDD0016E71F /* SWIFTUI_CafeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWIFTUI_CafeApp.swift; sourceTree = "<group>"; };
 		34BA562A2A010CDD0016E71F /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -48,6 +50,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3472A68F2A03AF790015EC0D /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				34BA56472A0272BC0016E71F /* EventSection */,
+				34BA56402A0269FB0016E71F /* MenuSuggestion */,
+				34BA564C2A0273B10016E71F /* Header */,
+			);
+			path = Sub;
+			sourceTree = "<group>";
+		};
 		34BA561C2A010CDD0016E71F = {
 			isa = PBXGroup;
 			children = (
@@ -132,9 +144,8 @@
 		34BA56492A0273940016E71F /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				34BA56472A0272BC0016E71F /* EventSection */,
-				34BA56402A0269FB0016E71F /* MenuSuggestion */,
-				34BA564C2A0273B10016E71F /* Header */,
+				3472A68D2A03AF720015EC0D /* MainView.swift */,
+				3472A68F2A03AF790015EC0D /* Sub */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -224,6 +235,7 @@
 				34BA56422A026A790016E71F /* EventSectionView.swift in Sources */,
 				34BA564B2A0273A60016E71F /* HeaderView.swift in Sources */,
 				34BA563F2A0263EF0016E71F /* MenuSuggestionItemView.swift in Sources */,
+				3472A68E2A03AF720015EC0D /* MainView.swift in Sources */,
 				34BA56442A026AB20016E71F /* EventData.swift in Sources */,
 				34BA563B2A02607F0016E71F /* MenuSuggestionSectionView.swift in Sources */,
 				34BA56462A026C910016E71F /* EventSectionItemView.swift in Sources */,
