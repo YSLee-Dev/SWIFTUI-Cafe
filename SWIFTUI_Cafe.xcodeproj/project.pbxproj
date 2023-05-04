@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3472A68E2A03AF720015EC0D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3472A68D2A03AF720015EC0D /* MainView.swift */; };
+		3472A6912A03B28C0015EC0D /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3472A6902A03B28B0015EC0D /* UserData.swift */; };
 		34BA56292A010CDD0016E71F /* SWIFTUI_CafeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA56282A010CDD0016E71F /* SWIFTUI_CafeApp.swift */; };
 		34BA562B2A010CDD0016E71F /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BA562A2A010CDD0016E71F /* MainTabView.swift */; };
 		34BA562D2A010CE20016E71F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34BA562C2A010CE20016E71F /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		3472A68D2A03AF720015EC0D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3472A6902A03B28B0015EC0D /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		34BA56252A010CDD0016E71F /* SWIFTUI_Cafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWIFTUI_Cafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34BA56282A010CDD0016E71F /* SWIFTUI_CafeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWIFTUI_CafeApp.swift; sourceTree = "<group>"; };
 		34BA562A2A010CDD0016E71F /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				34BA563C2A0260F40016E71F /* CoffeeMenuData.swift */,
+				3472A6902A03B28B0015EC0D /* UserData.swift */,
 				34BA56432A026AB20016E71F /* EventData.swift */,
 			);
 			path = Entity;
@@ -234,6 +237,7 @@
 				34BA563D2A0260F40016E71F /* CoffeeMenuData.swift in Sources */,
 				34BA56422A026A790016E71F /* EventSectionView.swift in Sources */,
 				34BA564B2A0273A60016E71F /* HeaderView.swift in Sources */,
+				3472A6912A03B28C0015EC0D /* UserData.swift in Sources */,
 				34BA563F2A0263EF0016E71F /* MenuSuggestionItemView.swift in Sources */,
 				3472A68E2A03AF720015EC0D /* MainView.swift in Sources */,
 				34BA56442A026AB20016E71F /* EventData.swift in Sources */,

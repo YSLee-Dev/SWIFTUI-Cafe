@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct HeaderView: View {
+    let userData : UserData
+    
     var body: some View {
         VStack(spacing: 10){
             HStack(alignment: .top){
-                Text("YSLEE님\n반갑습니다☕️")
+                Text("\(self.userData.userName)님\n반갑습니다☕️")
                     .font(.title)
                 Spacer()
                 Button {
@@ -56,6 +58,6 @@ struct HeaderView: View {
 
 struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderView()
+        HeaderView(userData: UserData.shared)
     }
 }
