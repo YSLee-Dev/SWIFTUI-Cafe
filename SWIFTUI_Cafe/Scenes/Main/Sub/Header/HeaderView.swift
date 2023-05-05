@@ -24,6 +24,7 @@ struct HeaderView: View {
                 }
             }
             
+            Divider()
             
             HStack{
                 Button {
