@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct EventSectionView: View {
-    let eventDataList : [EventData]
+    @Binding var eventDataList : [EventData]
     
     var body: some View {
         VStack{
@@ -53,6 +53,6 @@ struct EventSectionView: View {
 
 struct EventSectionView_Previews: PreviewProvider {
     static var previews: some View {
-        EventSectionView(eventDataList: EventData.sample)
+        EventSectionView(eventDataList: .constant(EventData.sample))
     }
 }

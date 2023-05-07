@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HeaderView: View {
     let userData : UserData
+    @ObservedObject var viewModel : HeaderViewModel
     
     var body: some View {
         VStack(spacing: 10){
@@ -18,6 +19,7 @@ struct HeaderView: View {
                 Spacer()
                 Button {
                     print("Refresh Btn Tap")
+                    self.viewModel.refreshTap.send(Void())
                 } label: {
                     Image(systemName: "arrow.triangle.2.circlepath")
                         .foregroundColor(.green)
@@ -59,6 +61,6 @@ struct HeaderView: View {
 
 struct HeaderView_Previews: PreviewProvider {
     static var previews: some View {
-        HeaderView(userData: UserData.shared)
+        HeaderView(userData: UserData.shared, viewModel: HeaderViewModel())
     }
 }

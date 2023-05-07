@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MenuSuggestionSectionView: View {
-    let coffeeList : [CoffeeMenuData]
+    @Binding var coffeeList : [CoffeeMenuData]
     let userData : UserData
     
     var body: some View {
@@ -32,6 +32,6 @@ struct MenuSuggestionSectionView: View {
 
 struct MenuSuggestionSectionView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuSuggestionSectionView(coffeeList: CoffeeMenuData.sample, userData: UserData.shared)
+        MenuSuggestionSectionView(coffeeList: .constant(CoffeeMenuData.sample), userData: UserData.shared)
     }
 }

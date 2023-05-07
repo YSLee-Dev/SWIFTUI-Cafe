@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct MainView: View {
+    @StateObject var viewModel = MainViewModel()
+    
     var body: some View {
         ScrollView{
-            HeaderView(userData: UserData.shared)
-            MenuSuggestionSectionView(coffeeList: CoffeeMenuData.sample, userData: UserData.shared)
-            EventSectionView(eventDataList: EventData.sample)
+            HeaderView(userData: UserData.shared, viewModel: viewModel.headerViewModel)
+            MenuSuggestionSectionView(coffeeList: $viewModel.coffeeMenuList, userData: UserData.shared)
+            EventSectionView(eventDataList: $viewModel.eventList)
         }
     }
 }
